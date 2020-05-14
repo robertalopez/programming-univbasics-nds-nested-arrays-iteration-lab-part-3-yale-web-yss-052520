@@ -14,4 +14,5 @@ def join_nested_strings(src)
     row += 1 
 end 
 strings.flatten  
+strings.join 
 end 
