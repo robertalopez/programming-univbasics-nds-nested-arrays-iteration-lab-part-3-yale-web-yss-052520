@@ -10,8 +10,6 @@ def join_nested_strings(src)
     if src[row][column].class == String 
       strings << src[row][column]
       column += 1 
-    else 
-      column += 1 
     end 
     row += 1 
 end
