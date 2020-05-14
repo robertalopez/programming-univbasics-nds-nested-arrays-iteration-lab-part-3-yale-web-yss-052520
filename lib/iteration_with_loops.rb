@@ -8,10 +8,10 @@ def join_nested_strings(src)
     while column < src[row].count do 
     if src[row][column].class == String 
       strings << src[row][column]
-      column += 1 
     end 
+      column += 1 
+   end 
     row += 1 
-end
 end 
 strings.flatten  
 end 
